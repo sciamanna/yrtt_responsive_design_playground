@@ -6,10 +6,26 @@
 }  */
 
 body {
-    background-color: salmon;
+    background-color: rgba(250, 128, 114, 0.274);
 }
 
 img {
+    display: none;
     max-width: 100%;
 }
 
+@media only screen and (min-with: 600px){
+    img { 
+      display: block;
+    }
+}
+ @media only screen and (min-with: 800px){
+     body{
+       background-color: rgba(127, 255, 212, 0.233);
+     }
+ }
+ @media only screen and (min-with: 1000px){
+    body{
+      background-color:  rgba(206, 255, 127, 0.404);
+    }
+}
